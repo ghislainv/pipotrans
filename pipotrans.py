@@ -81,14 +81,14 @@ def process_files(dirname, lang):
             print(entry.msgstr)
             print('\n')
             po.save(filename)
-        # Fuzzy entries
-        for entry in po.fuzzy_entries():
-            print(entry.msgid)
-            print("update translation...")
-            entry.msgstr = translate(entry.msgid, lang)
-            print(entry.msgstr)
-            print('\n')
-            po.save(filename)
+        # # Fuzzy entries
+        # for entry in po.fuzzy_entries():
+        #     print(entry.msgid)
+        #     print("update translation...")
+        #     entry.msgstr = translate(entry.msgid, lang)
+        #     print(entry.msgstr)
+        #     print('\n')
+        #     po.save(filename)
 
 
 if __name__ == '__main__':

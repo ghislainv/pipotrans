@@ -1,0 +1,22 @@
+* Pipotrans
+
+Automatic translation of po files with Python
+
+* Installation
+
+Create a virtual environment.
+
+#+begin_src shell
+python3 -m venv ~/venvs/pipotrans
+source ~/venvs/pipotrans/bin/activate
+pip install -r requirements.txt
+pip install -r requirements-additional.txt
+#+end_src
+
+* Usage
+
+#+begin_src shell
+source ~/venvs/pipotrans/bin/activate
+python3 pipotrans.py -d path/to/directory/with/po/files -l FR
+#+end_src
+
