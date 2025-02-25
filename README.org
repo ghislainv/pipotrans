@@ -20,3 +20,6 @@ source ~/venvs/pipotrans/bin/activate
 python3 pipotrans.py -d path/to/directory/with/po/files -l FR
 #+end_src
 
+* Source
+
+Adapted from https://github.com/confdnt/python-auto-translate-gettext.

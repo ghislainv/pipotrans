@@ -94,4 +94,4 @@ def process_files(dirname, lang):
 if __name__ == '__main__':
     process_files(get_dirname(), get_target_language())
 
-# Enf od file
+# Enf of file
